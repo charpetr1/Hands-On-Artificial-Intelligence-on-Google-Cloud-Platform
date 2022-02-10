@@ -23,8 +23,8 @@ os.environ['NUMBAPRO_LIBDEVICE'] = '/usr/local/cuda/nvvm/libdevice/'
 for fn in ['libcudf.so', 'librmm.so']:
   shutil.copy('/usr/local/lib/'+fn, os.getcwd())
 
-BUCKET_ID="ml-assets"
-PROJECT_ID="VSMART-IIoT"
+BUCKET_ID="mlproj2bucket"
+PROJECT_ID="ML-project-cloud-tech1"
 TRAINING_FILE="text_classification_emp.csv"
 TRAINING_DATA_FOLDER="data"
 TRAINING_MODEL_FOLDER="model"
